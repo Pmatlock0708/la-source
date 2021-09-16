@@ -1,2 +1,2 @@
 # la-source
-Makeup
+LA SOURCE IS THE UI OF THE WORDPRESS SITE

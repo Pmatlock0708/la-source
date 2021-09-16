@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LA Source</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- addding the cdn's -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<div class="topHeader">
+    <div class="container">
+        <p> Free shipping on all orders over $60!</p>
+    </div>
+</div>
+<header>
+    <div class="container">
+        <div class="headerInner">
+            <div class="logoContainer">
+                <div class="imageLogo">
+                    <img src="./images/1.png">
+                </div>
+            </div>
+        </div>
+        <div class="searchContainer">
+            <select class="currencyCOnverter"><option>USD</option></select>
+            <div class="formSearchHeader">
+                <input type="text" name="" placeholder="Search">
+                <button type="subbmit"><img src="./images/2.png"></button>
+            </div>
+        </div>
+        <div class="accountLeftSide">
+            <a href="#"><img src="./images/3.png"></a>
+            <a href="#"><img src="./images/4.png"></a>
+        </div>
+    </div>
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="mobileMenu">
+        <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">NEW IN</a></li>
+            <li><a href="#">BEAUTY</a></li>
+            <li><a href="#">TRAVEL</a></li>
+            <li><a href="#">FOOD</a></li>
+            <li><a href="#">FASION</a></li>
+            <li><a href="#" style="color: red;">My account</a></li>
+            <li><a href="#" style="color: red;">Cart</a></li>
+            <li>
+                <div class="formSearchHeader">
+                    <input type="text" name="" placeholder="Search">
+                    <button type="subbmit"><img src="./images/2.png"></button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="menuContainer" style="background-image: url('./images/5.png');">
+    <div class="container">
+        <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">NEW IN</a></li>
+            <li><a href="#">BEAUTY</a></li>
+            <li><a href="#">TRAVEL</a></li>
+            <li><a href="#">FOOD</a></li>
+            <li><a href="#">FASION</a></li>
+        </ul>
+    </div>
+</div>
+<div class="bannerContainer">
+    <div class="contentContainerBanner">
+        <div class="sliderBanner">
+            <div class="slideInner">
+                <div class="containerSLider" style="background-image: url('./images/6.png');">
+                    <div class="container">
+                        <div class="innerContainers">
+                            <div class="heading">
+                                <h2>Get whatever you need.</h2>
+                            </div>
+                            <a href="#" class="blackButton">SHOP NOW</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="slideInner">
+                <div class="containerSLider" style="background-image: url('./images/6.png');">
+                    <div class="container">
+                        <div class="innerContainers">
+                            <div class="heading">
+                                <h2>Get whatever you need.</h2>
+                            </div>
+                            <a href="#" class="blackButton">SHOP NOW</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="slideInner">
+                <div class="containerSLider" style="background-image: url('./images/6.png');">
+                    <div class="container">
+                        <div class="innerContainers">
+                            <div class="heading">
+                                <h2>Get whatever you need.</h2>
+                            </div>
+                            <a href="#" class="blackButton">SHOP NOW</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="slideInner">
+                <div class="containerSLider" style="background-image: url('./images/6.png');">
+                    <div class="container">
+                        <div class="innerContainers">
+                            <div class="heading">
+                                <h2>Get whatever you need.</h2>
+                            </div>
+                            <a href="#" class="blackButton">SHOP NOW</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="shopByt">
+    <div class="container">
+        <div class="row">
+            <span>Shop by</span>
+            <ul>
+                <li><a href="#">New In</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">Beauty</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Jewelry</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="twoCOlumnLayotu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="contentLeftTwoColumns">
+                    <h3>DISCOVER <br>BEST SELLERS</h3>
+                    <p>Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est.</p>
+                    <a href="#" class="blackButton">Explore Products</a>
+                </div>
+            </div> 
+            <div class="col-md-9">
+                <div class="productSliderCOntainerRight">
+                    <div class="slideContainerRightSlider">
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+</div>
+<div class="newsSection">
+    <div class="container">
+        <div class="heading">
+            <h2>LATEST NEWS</h2>
+        </div>
+        <div class="catsContainer">
+            <div class="row shopByt">
+                <span>Categories</span>
+                <ul class="button-group filters-button-group">
+                    <li><button class="button" data-filter="*" style="display:none">All</button></li>
+                    <li><button class="button" data-filter=".Wellness">Wellness</button></li>
+                    <li><button class="button" data-filter=".Health">Health</button></li>
+                    <li><button class="button" data-filter=".Beauty">Beauty</button></li>
+                    <li><button class="button" data-filter=".Travel">Travel</button></li>
+                    <li><button class="button" data-filter=".Fitness">Fitness</button></li>
+                    <li><button class="button" data-filter=".Jewelry">Jewelry</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="element-item Wellness">
+                <div class="postthumbnailforHome">
+                    <div class="ContainerImageCots">
+                        <img src="./images/8.png">
+                    </div>
+                </div>
+                <a href="#" class="productInnerContainer">
+                    <h6>WELLNESS</h6>
+                    <h4>COVID-19 Immunity, Vaccines, and What Comes Next</h4>
+                    <p>In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel congue elementum.</p>
+                    <span class="buttons">Read More</span>
+                </a>
+            </div>
+            <div class="element-item Wellness">
+                <div class="postthumbnailforHome">
+                    <div class="ContainerImageCots">
+                        <img src="./images/8.png">
+                    </div>
+                </div>
+                <a href="#" class="productInnerContainer">
+                    <h6>WELLNESS</h6>
+                    <h4>COVID-19 Immunity, Vaccines, and What Comes Next</h4>
+                    <p>In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel congue elementum.</p>
+                    <span class="buttons">Read More</span>
+                </a>
+            </div>
+            <div class="element-item Health">
+                <div class="postthumbnailforHome">
+                    <div class="ContainerImageCots">
+                        <img src="./images/8.png">
+                    </div>
+                </div>
+                <a href="#" class="productInnerContainer">
+                    <h6>WELLNESS</h6>
+                    <h4>COVID-19 Immunity, Vaccines, and What Comes Next</h4>
+                    <p>In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel congue elementum.</p>
+                    <span class="buttons">Read More</span>
+                </a>
+            </div>
+            <div class="element-item Beauty">
+                <div class="postthumbnailforHome">
+                    <div class="ContainerImageCots">
+                        <img src="./images/8.png">
+                    </div>
+                </div>
+                <a href="#" class="productInnerContainer">
+                    <h6>WELLNESS</h6>
+                    <h4>COVID-19 Immunity, Vaccines, and What Comes Next</h4>
+                    <p>In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel congue elementum.</p>
+                    <span class="buttons">Read More</span>
+                </a>
+            </div>
+            <div class="element-item Travel">
+                <div class="postthumbnailforHome">
+                    <div class="ContainerImageCots">
+                        <img src="./images/8.png">
+                    </div>
+                </div>
+                <a href="#" class="productInnerContainer">
+                    <h6>WELLNESS</h6>
+                    <h4>COVID-19 Immunity, Vaccines, and What Comes Next</h4>
+                    <p>In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel congue elementum.</p>
+                    <span class="buttons">Read More</span>
+                </a>
+            </div>
+            <div class="element-item Fitness">
+                <div class="postthumbnailforHome">
+                    <div class="ContainerImageCots">
+                        <img src="./images/8.png">
+                    </div>
+                </div>
+                <a href="#" class="productInnerContainer">
+                    <h6>WELLNESS</h6>
+                    <h4>COVID-19 Immunity, Vaccines, and What Comes Next</h4>
+                    <p>In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel congue elementum.</p>
+                    <span class="buttons">Read More</span>
+                </a>
+            </div>
+            <div class="element-item Jewelry">
+                <div class="postthumbnailforHome">
+                    <div class="ContainerImageCots">
+                        <img src="./images/8.png">
+                    </div>
+                </div>
+                <a href="#" class="productInnerContainer">
+                    <h6>WELLNESS</h6>
+                    <h4>COVID-19 Immunity, Vaccines, and What Comes Next</h4>
+                    <p>In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel congue elementum.</p>
+                    <span class="buttons">Read More</span>
+                </a>
+            </div>
+            <div class="element-item Wellness">
+                <div class="postthumbnailforHome">
+                    <div class="ContainerImageCots">
+                        <img src="./images/8.png">
+                    </div>
+                </div>
+                <a href="#" class="productInnerContainer">
+                    <h6>WELLNESS</h6>
+                    <h4>COVID-19 Immunity, Vaccines, and What Comes Next</h4>
+                    <p>In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus neque tristique augue. Proin tempus urna vel congue elementum.</p>
+                    <span class="buttons">Read More</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="blackButton">Read all blogs</a>
+</div>
+
+
+<div class="subscribe">
+    <div class="container">
+        <div class="subscribeContainer">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Subscribe to our newsletter and be the first to hear about promotions, new product launches, events, and more. </p>
+            <div class="formContainerSubscribe">
+                <input type="text" name="" placeholder="Email Address">
+                <button type="submit">SUBSCRIBE</button>
+            </div>
+            <span class="innerText">By clicking “Subscribe” you agree to receive emails from La Source and accept our Terms & Conditions and Privacy Policy. </span>
+        </div>
+    </div>
+</div>
+
+<div class="twoCOlumnLayotu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="contentLeftTwoColumns">
+                    <h3>PRODUCTS <br>ON SALE</h3>
+                    <p>Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est.</p>
+                    <a href="#" class="blackButton">Explore Products</a>
+                </div>
+            </div> 
+            <div class="col-md-9">
+                <div class="productSliderCOntainerRight">
+                    <div class="slideContainerRightSlider">
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                        <div class="innerSLiderContainer">
+                            <div class="imageProductContainer">
+                                <img src="./images/7.png">
+                            </div>
+                            <div class="contentProductSlider">
+                                <h6>SOLARIS LABORATORIES ROSE QUARTZ EYE AND FACE TREATMENT TOOL </h6>
+                                <p>$23.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="insta">
+    <div class="container">
+        <div class="headingInsta">
+            <h6 class="work">@lasource.eco</h6>
+            <h2 class="work">FIND US ON INSTAGRAM <a href="#" class="colow"><i class="fa fa-instagram"></i>FOLLOW US</a></h2>
+        </div>
+        <div class="sliderContainerInsta">
+            <div class="sliderInnnerInsta">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+                <img src="./images/10.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="container">
+        <div class="footerRow1">
+            <div class="logoContainer">
+                <img src="./images/9.png">
+            </div>
+            <div class="paraCOntainer">
+                <p>Proin ex ipsum, facilisis id tincidunt sed, vulputate in lacus. Donec pharetra faucibus leo, vitae vestibulum leo scelerisque eu. Nam enim dolor, porta at ex ut, eleifend tristique metus. Integer sit amet auctor ligula, vel dictum orci. Nam feugiat interdum nisl. Ut id velit ac ante maximus gravida. </p>
+            </div>
+            <div class="socialLInksContainer">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mainFooter">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="headingsContainerList">
+                        <h6>Quick Links</h6>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Shop </a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Winter Sale</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="headingsContainerList">
+                        <h6>My Account</h6>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Shop </a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Winter Sale</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="headingsContainerList">
+                        <h6>Customer Service</h6>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Shop </a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Winter Sale</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="headingsContainerList">
+                        <h6>NewsLetter</h6>
+                        <p>Subscribe to our newsletter to stay updated with promotions and discounts</p>
+                        <div class="inputFormNewsletter">
+                            <input type="email" name="" placeholder="Email Address">
+                            <button type="submit">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRIghts">
+            <p>© LA Source 2020. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+<script src="./gham_e_zindagi.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
